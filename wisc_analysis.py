@@ -1192,8 +1192,8 @@ def step10_clinical_correlations(df, index_df):
 # ================================
 def main():
     st.title("WISC Lipidomics Analysis Pipeline")
-    st.markdown("**Authors: Luan Vu (UTSA) & Joan Cook-Mills (IU)")
-    st.markdown("**July 2025")
+    st.markdown("**Authors: Luan Vu (UTSA) & Joan Cook-Mills (IU)**")
+    st.markdown("**July 2025**")
     st.markdown("**Systematic Analysis**: 74 → 76 Lipids (Adding α-tocopherol & γ-tocopherol)")
     
     # Sidebar
