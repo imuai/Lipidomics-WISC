@@ -1,21 +1,21 @@
 # Enhanced WISC Lipidomics Analysis
 
-🧬 **Methodology-Compliant Enhancement with α-tocopherol & γ-tocopherol**
+**Methodology-Compliant Enhancement with α-tocopherol & γ-tocopherol**
 
 **Authors:** Luan Vu (UTSA) & Joan Cook-Mills (IU)  
 **Date:** December 2024
 
-## 🎯 Overview
+##  Overview
 
 This project enhances the original Wisconsin Infant Study Cohort (WISC) lipidomics analysis by adding **α-tocopherol** and **γ-tocopherol** measurements while maintaining **exact compliance** with the original methodology.
 
-### ✨ Key Features
-- ✅ **Exact WISC Methodology**: Pareto scaling, UMAP, Gap statistic, Spearman correlations
-- 🧬 **Enhanced Analysis**: 76 total lipids (74 original + 2 tocopherols)  
-- 📊 **Interactive Interface**: Easy-to-use Streamlit app for non-coding colleagues
-- 📈 **Publication Ready**: All figures and results formatted for publication
+### Key Features
+-  **Exact WISC Methodology**: Pareto scaling, UMAP, Gap statistic, Spearman correlations
+-  **Enhanced Analysis**: 76 total lipids (74 original + 2 tocopherols)  
+-  **Interactive Interface**: Easy-to-use Streamlit app for non-coding colleagues
+-  **Publication Ready**: All figures and results formatted for publication
 
-## 🚀 Quick Start (3 Easy Steps)
+##  Quick Start (3 Easy Steps)
 
 ### Step 1: Download Files
 Save these 4 files in the same folder as your `data.csv`:
@@ -37,30 +37,30 @@ The launcher will:
 
 ### Step 3: Run Analysis
 1. A web browser will open automatically
-2. Click **"🚀 Run Enhanced Analysis"**
+2. Click **" Run Enhanced Analysis"**
 3. View results and download files
 
-## 📊 What You'll Get
+##  What You'll Get
 
-### 📈 Interactive Visualizations
+###  Interactive Visualizations
 - **UMAP Comparison**: Original vs Enhanced clustering
 - **Tocopherol Distributions**: By cluster and clinical outcomes
 - **Enhanced Pro-inflammatory Index**: With tocopherol contributions
 - **Correlation Analysis**: Enhanced index vs clinical outcomes
 
-### 📋 Statistical Results
+###  Statistical Results
 - **Spearman correlations** with bootstrap confidence intervals
 - **Gap statistics** for optimal clustering
 - **Enhanced cluster assignments** for all patients
 - **Publication-ready tables** and figures
 
-### 📥 Downloadable Results
+###  Downloadable Results
 - Enhanced analysis results (CSV format)
 - All UMAP coordinates (original + enhanced)
 - Enhanced pro-inflammatory index values
 - Statistical summary tables
 
-## 🔬 Methodology Compliance
+##  Methodology Compliance
 
 ### Original WISC Methods (Maintained)
 ✅ **Pareto Scaling**: `(x - mean) / sqrt(std)`  
@@ -77,10 +77,10 @@ The launcher will:
 ➕ **76 Total Lipids**: 74 original + 2 tocopherols  
 ➕ **Enhanced Index**: Updated pro-inflammatory formula  
 
-## 🤝 Sharing with Colleagues
+##  Sharing with Colleagues
 
 ### For Non-Coding Colleagues:
-1. Send them the web URL (usually `http://localhost:8501`)
+1. Via the web URL (usually `http://localhost:8501`)
 2. They can run analysis with button clicks
 3. Download results directly from the interface
 4. No coding or statistics knowledge required
@@ -90,7 +90,7 @@ The launcher will:
 - Statistical methods match original study
 - Results directly comparable to original WISC
 
-## ❓ Troubleshooting
+##  Troubleshooting
 
 ### Common Issues:
 
@@ -111,7 +111,7 @@ streamlit run wisc_enhanced_analysis.py --server.port 8502
 - Requires Python 3.8 or higher
 - Check version: `python --version`
 
-## 📚 Expected Results
+## Expected Results
 
 ### Enhanced Clustering
 - Compare original 74-lipid vs enhanced 76-lipid clustering
@@ -128,7 +128,7 @@ streamlit run wisc_enhanced_analysis.py --server.port 8502
 - Enhanced index vs atopic dermatitis prevalence
 - Spearman correlations with 95% confidence intervals
 
-## 📞 Support
+## Support
 
 If you encounter issues:
 1. Check this README for troubleshooting steps
@@ -138,4 +138,4 @@ If you encounter issues:
 
 ---
 
-**🧬 Ready to enhance your WISC analysis with tocopherols!** 🚀
+** Ready to enhance your WISC analysis with tocopherols!** 
